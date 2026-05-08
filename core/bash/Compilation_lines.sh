@@ -27,7 +27,7 @@ g++ main.cpp -o main \
 
 # Competition line
 # Use this alwaysER that the standard one
-g++ main.cpp -o main O2 -Wall -Wextra -std=c++20
+g++ main.cpp -o main -O2 -Wall -Wextra -std=c++20
 
 # Home alias
 # Use this when you can copy it (DO NOT LEARN IT)
