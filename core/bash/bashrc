@@ -5,88 +5,118 @@
 # ---------- Simple ----------
 # No time to learn anything fancy am I right?
 # Use when you are frustrated at life and you don't want to write "pointless" flags
-alias cs='g++ main.cpp -o main'
+Cs() {
+    g++ "$1.cpp" -o "$1"
+}
 
 # ---------- Fast ----------
 # Be like McQueen
 # Use this when you want quick binaries
-alias cf='g++ main.cpp -o main -O3'
+Cf() {
+    g++ "$1.cpp" -o "$1" -O3
+}
 
 # ---------- Standard ----------
 # If it works and is stupid then it's not stupid. This isn't even stupid.
 # Use always when you don't want too many warnings about stuff you know will throw a warning (even though you should fix that)
-alias cc='g++ main.cpp -o main \
--O2 -std=c++20'
+Cc() {
+    g++ "$1.cpp" -o "$1" \
+    -O2 -std=c++20
+}
 
 # ---------- Debug ----------
 # Use this when vector decides to shit beneath itself
-alias cd='g++ main.cpp -o main \
--g -Wall -Wextra -std=c++20'
+Cd() {
+    g++ "$1.cpp" -o "$1" \
+    -g -Wall -Wextra -std=c++20
+}
 
 # ---------- Advanced Debug ----------
 # Use this when even the debug fails [happened : 0 times]
-alias cD='g++ main.cpp -o main \
--g -O1 -fsanitize=address,undefined \
--fno-omit-frame-pointer \
--Wall -Wextra -Wshadow -std=c++20'
+CD() {
+    g++ "$1.cpp" -o "$1" \
+    -g -O1 -fsanitize=address,undefined \
+    -fno-omit-frame-pointer \
+    -Wall -Wextra -Wshadow -std=c++20
+}
 
 # ---------- Competitive ----------
 # Learn by heart and recite whenever someone wakes you up at 3 in the morning
 # Use pretty much always when you can
-alias cC='g++ main.cpp -o main \
--O2 -Wall -Wextra -std=c++20'
+CC() {
+    g++ "$1.cpp" -o "$1" \
+    -O2 -Wall -Wextra -std=c++20
+}
 
 # ---------- Home ----------
 # Use this whenever you can while you are at home
-alias cH='g++ main.cpp -o main \
--O2 -g -D_GLIBCXX_ASSERTIONS \
--Wall -Wextra -Wpedantic -Wshadow \
--Wconversion -Wsign-conversion \
--Wfloat-equal -Wlogical-op \
--Wshift-overflow=2 -Wduplicated-cond \
--Wcast-qual -Wnull-dereference \
--fstack-protector-strong -std=c++20'
+CH() {
+    g++ "$1.cpp" -o "$1" \
+    -O2 -g -D_GLIBCXX_ASSERTIONS \
+    -Wall -Wextra -Wpedantic -Wshadow \
+    -Wconversion -Wsign-conversion \
+    -Wfloat-equal -Wlogical-op \
+    -Wshift-overflow=2 -Wduplicated-cond \
+    -Wcast-qual -Wnull-dereference \
+    -fstack-protector-strong -std=c++20
+}
 
 # ---------- Over The Top ----------
 # Use this when something does not work and the only possible option is some obscure error
-alias cM='g++ main.cpp -o main \
--O2 -g3 \
--D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC \
--D_GLIBCXX_ASSERTIONS \
--fsanitize=address,undefined \
--fno-sanitize-recover \
--fstack-protector-strong \
--fno-omit-frame-pointer \
--Wall -Wextra -Wpedantic \
--Wshadow -Wconversion -Wsign-conversion \
--Wcast-align -Wcast-qual \
--Wfloat-equal -Wlogical-op \
--Wduplicated-cond -Wduplicated-branches \
--Wnull-dereference -Wshift-overflow=2 \
--Wuseless-cast -Wformat=2 \
--Wunused -Werror \
--std=c++20'
+CM() {
+    g++ "$1.cpp" -o "$1" \
+    -O2 -g3 \
+    -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC \
+    -D_GLIBCXX_ASSERTIONS \
+    -fsanitize=address,undefined \
+    -fno-sanitize-recover \
+    -fstack-protector-strong \
+    -fno-omit-frame-pointer \
+    -Wall -Wextra -Wpedantic \
+    -Wshadow -Wconversion -Wsign-conversion \
+    -Wcast-align -Wcast-qual \
+    -Wfloat-equal -Wlogical-op \
+    -Wduplicated-cond -Wduplicated-branches \
+    -Wnull-dereference -Wshift-overflow=2 \
+    -Wuseless-cast -Wformat=2 \
+    -Wunused -Werror \
+    -std=c++20
+}
 
 # ---------- Quick Compile ----------
 # Use this when compiling many codes [not usefull]
-alias cQ='g++ main.cpp -o main \
--O0 -std=c++20'
+CQ() {
+    g++ "$1.cpp" -o "$1" \
+    -O0 -std=c++20
+}
 
 # ---------- Stress Testing ----------
 # Use this when not sure about limits and no time to think
-alias cS='g++ main.cpp -o main \
--O2 -g -DLOCAL \
--D_GLIBCXX_ASSERTIONS \
--fsanitize=address,undefined \
--Wall -Wextra -std=c++20'
+CS() {
+    g++ "$1.cpp" -o "$1" \
+    -O2 -g -DLOCAL \
+    -D_GLIBCXX_ASSERTIONS \
+    -fsanitize=address,undefined \
+    -Wall -Wextra -std=c++20
+}
 
 # ---------- Run ----------
-alias run='./main'
+run() {
+    "./$1"
+}
 
 # ---------- Compile + Run ----------
-alias crun='cc && ./main'
-alias drun='cd && ./main'
-alias frun='cf && ./main'
+Crun() {
+    cc "$1" && "./$1"
+}
+
+Drun() {
+    cd "$1" && "./$1"
+}
+
+Frun() {
+    cf "$1" && "./$1"
+}
 
 # =========================================================
 # Reload bashrc after editing:
