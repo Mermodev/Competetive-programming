@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    long long N, X;
+    cin >> N >> X;
+    vector<int> V(N);
+    for(auto&e : V)
+      cin >> e;
+    sort(V.begin(), V.end());
+    bool b = true;
+    for(auto&e : V)
+      if(e == X){
+        cout << 1 << '\n';
+        b = false;
+        break;
+      }
+    if(b)
+      cout << max(2ll, (X + V[N - 1] - 1) / V[N - 1]) << '\n';
+  }
+}

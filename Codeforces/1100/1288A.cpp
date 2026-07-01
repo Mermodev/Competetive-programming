@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+long long Func(long long X, long long D){
+  return ((D + X) / (X + 1)) + X;   
+}
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    long long N, D;
+    cin >> N >> D;
+
+    double lo = 0.0, hi = (double)D;
+    for(int iter = 0; iter < 100; iter++){
+      double m1 = lo + (hi - lo) / 3;
+      double m2 = hi - (hi - lo) / 3;
+      double g1 = m1 + (double)D / (m1 + 1);
+      double g2 = m2 + (double)D / (m2 + 1);
+      if(g1 < g2) hi = m2;
+      else lo = m1;
+    }
+
+    long long xi = (long long)llround((lo + hi) / 2.0);
+    long long best = LLONG_MAX;
+    for(long long x = max(0LL, xi - 5); x <= xi + 5; x++)
+      best = min(best, Func(x, D));
+
+    cout << (best <= N ? "YES\n" : "NO\n");
+  }
+}

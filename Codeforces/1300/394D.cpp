@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+long long Check(vector<int>&V, int Step, int Offset){
+  long long Res = abs(Offset), Start = V[0] + Offset;
+  for(int i = 1; i < V.size(); i++)
+    Res = max(Res, abs(V[i] - (Start + Step * i)));
+  return Res;
+}
+
+const int __Limit = 21000;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int N;
+  cin >> N;
+  vector<int> V(N);
+  for(auto&e : V)
+    cin >> e;
+  sort(V.begin(), V.end());
+  vector<int> Ans = {INT_MAX, INT_MAX, INT_MAX};
+  for(int jump = 0; jump < __Limit; jump++){
+    long long L = -__Limit, H = __Limit;
+    while(H - L > 3){
+      long long M1 = Check(V, jump, L + (H - L) / 3);
+      long long M2 = Check(V, jump, H - (H - L) / 3);
+      if(M2 > M1)
+        H = H - (H - L) / 3;
+      else 
+        L = L + (H - L) / 3;
+    }
+    for(int i = L; i <= H; i++){
+      int temp = Check(V, jump, i);
+      if(temp < Ans[0])
+        Ans = {temp, V[0] + i, jump};
+    }
+  }
+  cout << Ans[0] << '\n' << Ans[1] << ' ' << Ans[2];
+}

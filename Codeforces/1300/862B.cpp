@@ -1,0 +1,35 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int N, a, b;
+  cin >> N;
+  vector<vector<int>> G(N);
+  for(int i = 0; i < N - 1; i++){
+    cin >> a >> b;
+    G[--a].emplace_back(--b);
+    G[b].emplace_back(a);
+  }
+  vector<int>dist(N, -1);
+  int Even = 1, Odd = 0;
+  queue<int> Q;
+  Q.push(0);
+  dist[0] = 0;
+  while(!Q.empty()){
+    for(auto&e : G[Q.front()])
+      if(dist[e] == -1){
+        dist[e] = dist[Q.front()] + 1;
+        if(dist[e] % 2)
+          Odd++;
+        else 
+          Even++;
+        Q.push(e);
+      }
+    Q.pop();
+  }
+  long long Ans = 0;
+  for(int i = 0; i < N; i++)
+    Ans += ((dist[i] % 2 == 1) ? Even : Odd) - G[i].size();
+  cout << Ans / 2<< '\n';
+}

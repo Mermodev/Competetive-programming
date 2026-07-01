@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    int A, B, C;
+    cin >> A >> B >> C;
+    cout << int(A^B^C) - (A + B + C - max(max(A, B), C) - min(min(A, B), C)) << '\n';
+  }
+}

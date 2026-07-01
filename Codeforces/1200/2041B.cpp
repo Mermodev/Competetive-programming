@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    long long B, W;
+    cin >> B >> W;
+    long long k = 1;
+    while((k * (k - 1)) / 2 <= B + W)
+      k++;
+    cout << --k - 1 << '\n';
+  }
+}

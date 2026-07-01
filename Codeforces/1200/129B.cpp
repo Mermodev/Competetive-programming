@@ -1,0 +1,36 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int N, M, a, b;
+  cin >> N >> M;
+  vector<vector<int>> G(N);
+  vector<int> Neigh(N, 0);
+  for(int i = 0; i < M; i++){
+    cin >> a >> b;
+    G[--a].emplace_back(--b);
+    G[b].emplace_back(a);
+    Neigh[a]++;
+    Neigh[b]++;
+  }
+  queue<int> Q;
+  for(int i = 0; i < N; i++)
+    if(G[i].size() == 1)
+      Q.push(i);
+  int Ans = 0;
+  while(!Q.empty()){
+    Ans++;
+    while(!Q.empty()){
+      Neigh[Q.front()] = 0;
+      for(auto&e : G[Q.front()])
+        if(Neigh[e] != 0)
+          Neigh[e]--;
+      Q.pop();
+    }
+    for(int i = 0; i < N; i++)
+      if(Neigh[i] == 1)
+        Q.push(i);
+  }
+  cout << Ans <<  '\n';
+}

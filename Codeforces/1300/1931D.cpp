@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    int N, X, Y, temp;
+    cin >> N >> X >> Y;
+    map<pair<int, int>, int> M;
+    long long Ans = 0;
+    while(N--){
+      cin >> temp;
+      Ans += M[make_pair((X - (temp % X)) % X, temp % Y)];
+      M[make_pair(temp % X, temp % Y)]++;
+    }
+    cout << Ans << '\n';
+  }
+}
