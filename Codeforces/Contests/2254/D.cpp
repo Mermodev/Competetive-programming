@@ -1,0 +1,51 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    int N;
+    cin >> N;
+    vector<long long> V(N);
+    for(auto&e : V)
+      cin >> e;
+    map<long long, long long> Amount;
+    vector<long long> Exists;
+    for(auto&e : V){
+      Amount[e]++;
+      if(Amount[e] == 1)
+        Exists.emplace_back(e);
+    }
+    sort(Exists.begin(), Exists.end());
+    if(Exists[0] != 0){
+      cout << "-1\n";
+      continue;
+    }
+    long long Prev = 0;
+    bool Fished = false;
+    map<long long, long long> Assign;
+    for(int i = 1; i < Exists.size(); i++){
+      long long diff = Exists[i] - Exists[i - 1];
+      if(diff % Amount[Exists[i - 1]] != 0){
+        cout << "-1\n";
+        Fished = true;
+        break;
+      }
+      Assign[Exists[i - 1]] = diff / Amount[Exists[i - 1]];
+      if(Prev >= Assign[Exists[i - 1]]){
+        cout << -1 << '\n';
+        Fished = true;
+        break;
+      }
+      Prev = Assign[Exists[i - 1]];
+    }
+    Assign[Exists[Exists.size() - 1]] = Prev + 1;
+    if(Fished)
+      continue;
+    for(auto&e : V)
+      cout << Assign[e] << ' ';
+    cout << '\n';
+  }
+}

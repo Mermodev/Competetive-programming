@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    int A, B, C;
+    cin >> A >> B >> C;
+    int Max = max(A, max(B, C));
+    int Min = min(A, min(B, C));
+    int Mid = A + B + C - Min - Max;
+    cout << min(Mid - Min, Max - Mid) << '\n';
+  }
+}
