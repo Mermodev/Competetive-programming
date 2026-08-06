@@ -1,0 +1,48 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
+  int T;
+  cin >> T;
+  while (T--) {
+    int n, m;
+    cin >> n >> m;
+    vector<long long> v(n);
+    for (auto &x : v)
+      cin >> x;
+    vector<vector<long long>> a(n, vector<long long>(m));
+    for (int i = 0; i < n; i++) {
+      for (int j = 0; j < m; j++) {
+        cin >> a[i][j];
+      }
+    }
+    multiset<long long> s;
+    long long sum = 0;
+    long long ans = m;
+    for (int i = n - 1; i >= 0; i--) {
+      for (long long x : a[i]) {
+        s.insert(x);
+        sum += x;
+      }
+      while ((int)s.size() > m) {
+        auto it = s.begin(); // smallest
+        sum -= *it;
+        s.erase(it);
+      }
+      long long cur = 0;
+      int cnt = 0;
+      for (auto it = s.rbegin(); it != s.rend() && cnt < m; it++) {
+        cur += *it;
+        cnt++;
+        if (cur >= v[i]) {
+          ans = min(ans, (long long)cnt);
+          break;
+        }
+      }
+    }
+    cout << ans << '\n';
+  }
+  return 0;
+}
