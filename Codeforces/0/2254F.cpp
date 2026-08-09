@@ -1,0 +1,45 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    int N;
+    cin >> N;
+    vector<long long> A(N), B(N);
+    for(auto&e : A)
+      cin >> e;
+    for(auto&e : B)
+      cin >> e;
+    sort(A.begin(), A.end());
+    sort(B.begin(), B.end());
+    long long XorA = 0, XorB = 0;
+    for(int i = 0; i < N; i++){
+      XorA = XorA ^ A[i];
+      XorB = XorB ^ B[i];
+    }
+    long long XorDiff = XorA ^ XorB;
+    bool Present = XorDiff == 0;
+    int PresentPos = -1;
+    for(int i = 0; i < N && !Present; i++)
+      if(A[i] == XorDiff){
+        Present = true;
+        PresentPos = i;
+      }
+    if(Present == false){
+      cout << "NO\n";
+      continue;
+    }
+    for(auto&e : A)
+      e = e ^ XorDiff;
+    if(PresentPos != -1)
+      A[PresentPos] = XorDiff;
+    sort(A.begin(), A.end());
+    if(A == B)
+      cout << "YES\n";
+    else 
+      cout << "NO\n";
+  }
+}

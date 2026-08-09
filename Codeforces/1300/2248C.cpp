@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    int N;
+    cin >> N;
+    vector<int> V(N * 2);
+    for(auto&e : V)
+      cin >> e;
+    vector<int> Pos(N + 1, -1);
+    vector<long long> dp(N * 2 + 1, 0);
+    for(long long i = 0; i < 2 * N; i++){
+      if(Pos[V[i]] == -1){
+        dp[i + 1] = dp[i] + 1;
+        Pos[V[i]] = i;
+      }
+      else
+        dp[i + 1] = max((long long)(dp[i] + 1), (long long)(dp[Pos[V[i]]] + pow(i - Pos[V[i]] + 1ll, 2)));
+    }
+    cout << dp[2 * N] << '\n';
+  }
+}
