@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "b80ae0d3654e733e",
+    "type": "split",
+    "children": [
+      {
+        "id": "50e780802c65074c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbc16d0598d51756",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "25cbd6b159cf464a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7a642d90b06d23c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "741a97d23c97c671",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9d3489a4dc9b1294",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "resta",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3433b8301d45b4b1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "543940663de82fc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "26e520b630b8fd8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1826cdce5205ed98",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "246f0e47e416b7d6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "0a9f7aa5f45c31d7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6921c50aeb2af122",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ce4d1ac62fbd0e22",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "741a97d23c97c671",
+  "lastOpenFiles": [
+    "Traffic_lights.md",
+    "Towers.md",
+    "Tasks_and_deadlines.md",
+    "Sum_of_two_values.md",
+    "Sum_of_three_values.md",
+    "Sum_of_four_values.md",
+    "Restaurant_customers.md",
+    "Subarray_sums_II.md",
+    "Subarray_sums_I.md",
+    "Subarray_divisibility.md",
+    "Stick_lengths.md",
+    "Room_allocation.md",
+    "Reading_books.md",
+    "Playlist.md",
+    "2248B.md",
+    "1650C.md",
+    "Nested_ranges_count.md",
+    "Nested_ranges_check.md",
+    "Nearest_smaller_values.md",
+    "Movie_festiwal_II.md",
+    "Movie_festiwal.md",
+    "Missing_coin_sum.md",
+    "1307B.md",
+    "Building_teams.md",
+    "Maximum_subarray_sum.md",
+    "Josephus_problem_II.md"
+  ]
+}
