@@ -5,18 +5,929 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [],
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"Weird_algorithm.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 6891519
+      }
+    },
+    {
+      "query": "path:\"Two_sets_II.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14810895
+      }
+    },
+    {
+      "query": "path:\"Two_sets.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 1035520
+      }
+    },
+    {
+      "query": "path:\"Sum_of_three_values.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 62194
+      }
+    },
+    {
+      "query": "path:\"Tasks_and_deadlines.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16743699
+      }
+    },
+    {
+      "query": "path:\"Two_knights.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"Trailing_zeros.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"Traffic_lights.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 9113855
+      }
+    },
+    {
+      "query": "path:\"Towers.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16187536
+      }
+    },
+    {
+      "query": "path:\"Subarray_divisibility.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 48953
+      }
+    },
+    {
+      "query": "path:\"Sum_of_two_values.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16741915
+      }
+    },
+    {
+      "query": "path:\"Stick_lengths.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 130913
+      }
+    },
+    {
+      "query": "path:\"Subarray_sums_II.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 45832
+      }
+    },
+    {
+      "query": "path:\"Subarray_sums_I.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 45832
+      }
+    },
+    {
+      "query": "path:\"String_reorder.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 5220863
+      }
+    },
+    {
+      "query": "path:\"Shortest_routes_II.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 589724
+      }
+    },
+    {
+      "query": "path:\"Shortest_routes_I.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16746525
+      }
+    },
+    {
+      "query": "path:\"Round_trip_II.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2883805
+      }
+    },
+    {
+      "query": "path:\"Round_trip.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2883805
+      }
+    },
+    {
+      "query": "path:\"Room_allocation.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16721679
+      }
+    },
+    {
+      "query": "path:\"Restaurant_customers.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 8126629
+      }
+    },
+    {
+      "query": "path:\"Repetitions.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16713773
+      }
+    },
+    {
+      "query": "path:\"Removing_digits.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14983168
+      }
+    },
+    {
+      "query": "path:\"Removal_game.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16715835
+      }
+    },
+    {
+      "query": "path:\"Rectangle_cutting.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14983168
+      }
+    },
+    {
+      "query": "path:\"Reading_books.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16713479
+      }
+    },
+    {
+      "query": "path:\"Raab_game_I.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16720452
+      }
+    },
+    {
+      "query": "path:\"Projects.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14972416
+      }
+    },
+    {
+      "query": "path:\"Playlist.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16272640
+      }
+    },
+    {
+      "query": "path:\"Permutations.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16769556
+      }
+    },
+    {
+      "query": "path:\"Palindrome_reorder.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16715625
+      }
+    },
+    {
+      "query": "path:\"Number_spiral.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"Nested_ranges_count.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 1507327
+      }
+    },
+    {
+      "query": "path:\"Nested_ranges_check.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 3268863
+      }
+    },
+    {
+      "query": "path:\"Nearest_smaller_values.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 58853
+      }
+    },
+    {
+      "query": "path:\"Movie_festiwal_II.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 64478
+      }
+    },
+    {
+      "query": "path:\"Movie_festiwal.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16752994
+      }
+    },
+    {
+      "query": "path:\"Mountain_range.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14742784
+      }
+    },
+    {
+      "query": "path:\"Money_sums.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14983168
+      }
+    },
+    {
+      "query": "path:\"Minimizing_coins.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16056081
+      }
+    },
+    {
+      "query": "path:\"Monsters.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 752895
+      }
+    },
+    {
+      "query": "path:\"Missing_number.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"Missing_coin_sum.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16743699
+      }
+    },
+    {
+      "query": "path:\"Maximum_subarray_sum.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14983168
+      }
+    },
+    {
+      "query": "path:\"Minimal_grid_path.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 13585408
+      }
+    },
+    {
+      "query": "path:\"Mex_grid_construction.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16769556
+      }
+    },
+    {
+      "query": "path:\"Message_route.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 786385
+      }
+    },
+    {
+      "query": "path:\"Longest_common_subsequence.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16753201
+      }
+    },
+    {
+      "query": "path:\"Labyrinth.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 786385
+      }
+    },
+    {
+      "query": "path:\"Knight_moves_grid.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 752895
+      }
+    },
+    {
+      "query": "path:\"Increasing_array.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16713479
+      }
+    },
+    {
+      "query": "path:\"Josephus_problem_II.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 57054
+      }
+    },
+    {
+      "query": "path:\"Josephus_problem.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 6291687
+      }
+    },
+    {
+      "query": "path:\"Increasing_subsequence_II.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16757280
+      }
+    },
+    {
+      "query": "path:\"Increasing_subsequence.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14942287
+      }
+    },
+    {
+      "query": "path:\"High_score.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 8454356
+      }
+    },
+    {
+      "query": "path:\"Grid_paths_I.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14810895
+      }
+    },
+    {
+      "query": "path:\"Grid_path_description.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 56771
+      }
+    },
+    {
+      "query": "path:\"Grid_coloring_I.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16713479
+      }
+    },
+    {
+      "query": "path:\"Gray_code.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2502399
+      }
+    },
+    {
+      "query": "path:\"Flight_routes.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 1965972
+      }
+    },
+    {
+      "query": "path:\"Flight_discount.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 1245054
+      }
+    },
+    {
+      "query": "path:\"Ferris_wheel.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 43155
+      }
+    },
+    {
+      "query": "path:\"Factory_machines.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 15663231
+      }
+    },
+    {
+      "query": "path:\"Edit_distance.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 6075903
+      }
+    },
+    {
+      "query": "path:\"Distinct_values_subsequences.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 1997
+      }
+    },
+    {
+      "query": "path:\"Distinct_values_subarrays_II.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16272640
+      }
+    },
+    {
+      "query": "path:\"Distinct_values_subarrays.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16294144
+      }
+    },
+    {
+      "query": "path:\"Distinct_numbers.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16741915
+      }
+    },
+    {
+      "query": "path:\"Digit_queries.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"Dice_combinations.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14983168
+      }
+    },
+    {
+      "query": "path:\"Cycle_finding.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 57671
+      }
+    },
+    {
+      "query": "path:\"Concert_tickets.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16722767
+      }
+    },
+    {
+      "query": "path:\"Creating_strings.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 1153791
+      }
+    },
+    {
+      "query": "path:\"Counting_rooms.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 786385
+      }
+    },
+    {
+      "query": "path:\"Counting_numbers.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14810895
+      }
+    },
+    {
+      "query": "path:\"Counting_towers.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14810895
+      }
+    },
+    {
+      "query": "path:\"Collecting_numbers_II.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 33968
+      }
+    },
+    {
+      "query": "path:\"Collecting_numbers.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 44127
+      }
+    },
+    {
+      "query": "path:\"Coin_piles.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 1035520
+      }
+    },
+    {
+      "query": "path:\"Building_roads.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 56771
+      }
+    },
+    {
+      "query": "path:\"Building_teams.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2883805
+      }
+    },
+    {
+      "query": "path:\"Coin_combinations_II.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 15400722
+      }
+    },
+    {
+      "query": "path:\"Coin_combinations_I.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 15400722
+      }
+    },
+    {
+      "query": "path:\"Bit_strings.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"Chessboard_and_queens.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2883805
+      }
+    },
+    {
+      "query": "path:\"Array_description.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14810895
+      }
+    },
+    {
+      "query": "path:\"Book_shop.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16056081
+      }
+    },
+    {
+      "query": "path:\"Apple_division.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 96511
+      }
+    },
+    {
+      "query": "path:\"Apartaments.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 47978
+      }
+    },
+    {
+      "query": "path:\"Array_division.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 15663231
+      }
+    },
+    {
+      "query": "path:\"886C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16713479
+      }
+    },
+    {
+      "query": "path:\"899C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"932B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 10252799
+      }
+    },
+    {
+      "query": "path:\"61B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2068479
+      }
+    },
+    {
+      "query": "path:\"394D.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 15663231
+      }
+    },
+    {
+      "query": "path:\"862B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 786385
+      }
+    },
+    {
+      "query": "path:\"467B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 10252799
+      }
+    },
+    {
+      "query": "path:\"251A.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16722474
+      }
+    },
+    {
+      "query": "path:\"2254F.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 327542
+      }
+    },
+    {
+      "query": "path:\"2248D.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16733953
+      }
+    },
+    {
+      "query": "path:\"2248C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14983168
+      }
+    },
+    {
+      "query": "path:\"2252C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 9054463
+      }
+    },
+    {
+      "query": "path:\"2252B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 15371008
+      }
+    },
+    {
+      "query": "path:\"2252A.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16738913
+      }
+    },
+    {
+      "query": "path:\"2248B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 62194
+      }
+    },
+    {
+      "query": "path:\"2248A.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16713479
+      }
+    },
+    {
+      "query": "path:\"2246C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"2245C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 1572860
+      }
+    },
+    {
+      "query": "path:\"2244E.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 3276625
+      }
+    },
+    {
+      "query": "path:\"2238C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 7340253
+      }
+    },
+    {
+      "query": "path:\"2229C2.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 320000
+      }
+    },
+    {
+      "query": "path:\"2229C1.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16713479
+      }
+    },
+    {
+      "query": "path:\"2196A.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 4063010
+      }
+    },
+    {
+      "query": "path:\"2190A.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16719465
+      }
+    },
+    {
+      "query": "path:\"2041B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"2107B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16723490
+      }
+    },
+    {
+      "query": "path:\"1916C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16741211
+      }
+    },
+    {
+      "query": "path:\"2033D.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 15003392
+      }
+    },
+    {
+      "query": "path:\"1931D.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 250880
+      }
+    },
+    {
+      "query": "path:\"1647B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 589724
+      }
+    },
+    {
+      "query": "path:\"1650C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16743699
+      }
+    },
+    {
+      "query": "path:\"1843D.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 7340253
+      }
+    },
+    {
+      "query": "path:\"1759C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"1638C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2097036
+      }
+    },
+    {
+      "query": "path:\"1307B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"1446A.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16713479
+      }
+    },
+    {
+      "query": "path:\"1288A.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14614553
+      }
+    },
+    {
+      "query": "path:\"1184A1.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2817956
+      }
+    },
+    {
+      "query": "path:\"129B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 64992
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": false,
-  "centerStrength": 0.58767867928327,
-  "repelStrength": 15.0947413242495,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 263,
-  "scale": 0.12616523209816127,
+  "linkDistance": 250,
+  "scale": 0.3582201436947984,
   "close": false
 }

@@ -1,0 +1,10 @@
+{
+	"id": "auto-tag-graph-colors",
+	"name": "Auto Tag Graph Colors",
+	"version": "1.0.2",
+	"minAppVersion": "1.4.0",
+	"description": "Automatically assign distinct, stable colors to every tag in the graph view. Includes smart tag blending, monochrome mode, and heat coloring by connection count.",
+	"author": "Meetzy Corp FZCO",
+	"authorUrl": "https://meetzy.ai",
+	"isDesktopOnly": false
+}

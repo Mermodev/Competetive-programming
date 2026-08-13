@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "resta",
+                "query": "tag:#prefix_sum tag:#greedy  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,8 +181,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "741a97d23c97c671",
+  "active": "cbc16d0598d51756",
   "lastOpenFiles": [
+    "2229C2.md",
+    "2229C1.md",
+    "2231C.md",
+    "Untitled.base",
+    "2238C.md",
+    "2244E.md",
+    "2245C.md",
+    "2246C.md",
+    "2041B.md",
+    "Two_sets.md",
+    "Money_sums.md",
+    "Josephus_problem.md",
+    "Creating_strings.md",
+    "Increasing_subsequence_II.md",
+    "Playlist.md",
+    "1360E.md",
+    "Weird_algorithm.md",
     "Traffic_lights.md",
     "Towers.md",
     "Tasks_and_deadlines.md",
@@ -191,22 +209,6 @@
     "Restaurant_customers.md",
     "Subarray_sums_II.md",
     "Subarray_sums_I.md",
-    "Subarray_divisibility.md",
-    "Stick_lengths.md",
-    "Room_allocation.md",
-    "Reading_books.md",
-    "Playlist.md",
-    "2248B.md",
-    "1650C.md",
-    "Nested_ranges_count.md",
-    "Nested_ranges_check.md",
-    "Nearest_smaller_values.md",
-    "Movie_festiwal_II.md",
-    "Movie_festiwal.md",
-    "Missing_coin_sum.md",
-    "1307B.md",
-    "Building_teams.md",
-    "Maximum_subarray_sum.md",
-    "Josephus_problem_II.md"
+    "Subarray_divisibility.md"
   ]
 }

@@ -1,3 +1,4 @@
+LCA
 bellman_ford
 bfs
 binsearch
@@ -30,6 +31,7 @@ permutations
 prefix_sum
 scheduling
 segment_tree
+set
 simulation
 sliding_window
 sorting
