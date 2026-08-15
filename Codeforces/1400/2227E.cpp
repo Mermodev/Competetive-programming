@@ -1,0 +1,34 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    int N;
+    cin >> N;
+    vector<int> V(N);
+    for(auto&e : V)
+      cin >> e;
+    int Curr = V[N - 1];
+    int Max_Dec = 0, Curr_Dec = 0;
+    for(int i = N - 2; i >= 0; i--){
+      if(V[i] >= Curr)
+        Curr_Dec++;
+      else{
+        Curr = V[i];
+        Max_Dec = max(Max_Dec, Curr_Dec);
+        Curr_Dec = 0;
+      }
+    }
+    Max_Dec = max(Max_Dec, Curr_Dec);
+    int Curr_min = INT_MAX;
+    long long Ans = 0;
+    for(int i = N - 1; i >= 0; i--){
+      Curr_min = min(Curr_min, V[i]);
+      Ans += max(0, V[i] - Curr_min);
+    }
+    cout << Ans + Max_Dec << '\n';
+  }
+}

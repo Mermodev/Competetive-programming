@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#prefix_sum tag:#greedy  ",
+                "query": "tag: pref",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,8 +181,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "cbc16d0598d51756",
+  "active": "9d3489a4dc9b1294",
   "lastOpenFiles": [
+    "2222C.md",
+    "2225D.md",
+    "2226C.md",
+    "2234D.md",
+    "2239B.md",
+    "2238D.md",
+    "2248D.md",
+    "2227E.md",
     "2229C2.md",
     "2229C1.md",
     "2231C.md",
@@ -201,14 +209,6 @@
     "1360E.md",
     "Weird_algorithm.md",
     "Traffic_lights.md",
-    "Towers.md",
-    "Tasks_and_deadlines.md",
-    "Sum_of_two_values.md",
-    "Sum_of_three_values.md",
-    "Sum_of_four_values.md",
-    "Restaurant_customers.md",
-    "Subarray_sums_II.md",
-    "Subarray_sums_I.md",
-    "Subarray_divisibility.md"
+    "Towers.md"
   ]
 }

@@ -29,6 +29,7 @@ median
 ordered_set
 permutations
 prefix_sum
+prime\
 scheduling
 segment_tree
 set
@@ -43,3 +44,4 @@ sweep
 tree_dp
 two_pointers
 unordered_map
+xor

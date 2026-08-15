@@ -41,6 +41,7 @@
     "ordered_set": 28,
     "permutations": 29,
     "prefix_sum": 30,
+    "prime": 48,
     "priority_queue": 31,
     "queue": 32,
     "scheduling": 33,
