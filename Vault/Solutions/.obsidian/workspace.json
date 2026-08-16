@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: pref",
+                "query": "2185",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,17 +181,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "9d3489a4dc9b1294",
+  "active": "cbc16d0598d51756",
   "lastOpenFiles": [
-    "2222C.md",
+    "2185E.md",
+    "2241E.md",
+    "2195E.md",
+    "2203C.md",
+    "Playlist.md",
+    "2218F.md",
     "2225D.md",
+    "2222C.md",
+    "467B.md",
+    "2229C2.md",
+    "Mountain_range.md",
+    "2196A.md",
+    "Subarray_sums_II.md",
     "2226C.md",
     "2234D.md",
     "2239B.md",
     "2238D.md",
     "2248D.md",
     "2227E.md",
-    "2229C2.md",
     "2229C1.md",
     "2231C.md",
     "Untitled.base",
@@ -199,16 +209,6 @@
     "2244E.md",
     "2245C.md",
     "2246C.md",
-    "2041B.md",
-    "Two_sets.md",
-    "Money_sums.md",
-    "Josephus_problem.md",
-    "Creating_strings.md",
-    "Increasing_subsequence_II.md",
-    "Playlist.md",
-    "1360E.md",
-    "Weird_algorithm.md",
-    "Traffic_lights.md",
-    "Towers.md"
+    "2041B.md"
   ]
 }

@@ -54,6 +54,7 @@
     "string": 40,
     "string_dp": 41,
     "sweep": 42,
+    "tree": 49,
     "tree_dp": 46,
     "two_pointers": 43,
     "unordered_map": 44,

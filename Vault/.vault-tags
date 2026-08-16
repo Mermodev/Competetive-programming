@@ -26,6 +26,7 @@ knapsack
 lol
 math
 median
+multiset
 ordered_set
 permutations
 prefix_sum
@@ -41,6 +42,7 @@ string
 string_dp
 strings
 sweep
+tree
 tree_dp
 two_pointers
 unordered_map
