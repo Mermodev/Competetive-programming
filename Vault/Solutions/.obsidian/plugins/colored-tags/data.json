@@ -12,11 +12,13 @@
   "knownTags": {
     "bellman_ford": 1,
     "bfs": 2,
+    "binomial": 52,
     "binsearch": 3,
     "bipartie": 4,
     "bitmask": 5,
     "brutal_solution": 6,
     "bruteforce": 7,
+    "construction": 51,
     "constructive": 8,
     "counting": 9,
     "data_structures": 10,
@@ -56,6 +58,7 @@
     "sweep": 42,
     "tree": 49,
     "tree_dp": 46,
+    "trie": 50,
     "two_pointers": 43,
     "unordered_map": 44,
     "xor": 45

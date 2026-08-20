@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    int N, M, K;
+    cin >> N >> M >> K;
+    int Ranges[2] = {K - 1, N - K};
+    int Assign[2] = {(M + 1) / 3, (M + 2) / 3};
+    if(Ranges[0] > Ranges[1])
+      swap(Ranges[0], Ranges[1]);
+    int Small_delta = max(0, Assign[0] - Ranges[0]);
+    Ranges[0] -= Small_delta;
+    Assign[0] -= Small_delta;
+    Assign[1] += (Small_delta + (M % 3 == 0)) / 2;
+    int Big_delta = max(0, Assign[1] - Ranges[1]);
+    Assign[1] -= Big_delta;
+    cout << Assign[0] + Assign[1] + 1 << '\n';
+  }
+}

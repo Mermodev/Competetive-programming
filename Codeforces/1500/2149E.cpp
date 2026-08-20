@@ -1,0 +1,44 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    int N, K, L, R;
+    cin >> N >> K >> L >> R;
+    vector<int> V(N);
+    for(auto&e : V)
+      cin >> e;
+    map<int, int> AssL, AssR;
+    long long Ans = 0;
+    int DiffL = 0, DiffR = 0;
+    int r = 0, ll = 0, lr = 0;
+    while(r < N){
+      AssL[V[r]]++; AssR[V[r]]++;
+      if(AssL[V[r]] == 1)
+        DiffL++;
+      if(AssR[V[r]] == 1)
+        DiffR++;
+      while(DiffL > K){
+        AssL[V[ll]]--;
+        if(AssL[V[ll]] == 0)
+          DiffL--;
+        ll++;
+      }
+      while(DiffR >= K){
+        AssR[V[lr]]--;
+        if(AssR[V[lr]] == 0)
+          DiffR--;
+        lr++;
+      }
+      int x = max(ll, r - R + 1);
+      int y = min(lr - 1, r - L + 1);
+      if(y >= x)
+        Ans += y - x + 1;
+      r++;
+    }
+    cout << Ans << '\n';
+  }
+}

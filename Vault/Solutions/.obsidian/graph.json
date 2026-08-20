@@ -8,31 +8,108 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"2185E.md\"",
+      "query": "path:\"2256D.md\"",
       "color": {
         "a": 1,
-        "rgb": 15663273
+        "rgb": 524152
       }
     },
     {
-      "query": "path:\"2241E.md\"",
+      "query": "path:\"2256C.md\"",
       "color": {
         "a": 1,
-        "rgb": 59246
+        "rgb": 16719465
       }
     },
     {
-      "query": "path:\"2195E.md\"",
+      "query": "path:\"2256B.md\"",
       "color": {
         "a": 1,
-        "rgb": 982922
+        "rgb": 2424671
       }
     },
     {
-      "query": "path:\"2203C.md\"",
+      "query": "path:\"2256A.md\"",
       "color": {
         "a": 1,
-        "rgb": 1669631
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"2254E.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16722748
+      }
+    },
+    {
+      "query": "path:\"2254D.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16761369
+      }
+    },
+    {
+      "query": "path:\"2254C2.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16713479
+      }
+    },
+    {
+      "query": "path:\"2254C1.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16713479
+      }
+    },
+    {
+      "query": "path:\"2254B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2068479
+      }
+    },
+    {
+      "query": "path:\"2254A.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"2253C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 44127
+      }
+    },
+    {
+      "query": "path:\"2253A.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"2140C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 4063010
+      }
+    },
+    {
+      "query": "path:\"2146D2.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 12452083
+      }
+    },
+    {
+      "query": "path:\"2146D1.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 12452083
       }
     },
     {
@@ -99,10 +176,24 @@
       }
     },
     {
+      "query": "path:\"Stick_lengths.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 130913
+      }
+    },
+    {
       "query": "path:\"Sum_of_three_values.md\"",
       "color": {
         "a": 1,
         "rgb": 62194
+      }
+    },
+    {
+      "query": "path:\"Subarray_divisibility.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 48953
       }
     },
     {
@@ -120,13 +211,6 @@
       }
     },
     {
-      "query": "path:\"Subarray_divisibility.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 48953
-      }
-    },
-    {
       "query": "path:\"String_reorder.md\"",
       "color": {
         "a": 1,
@@ -134,10 +218,17 @@
       }
     },
     {
-      "query": "path:\"Stick_lengths.md\"",
+      "query": "path:\"Room_allocation.md\"",
       "color": {
         "a": 1,
-        "rgb": 130913
+        "rgb": 16721679
+      }
+    },
+    {
+      "query": "path:\"Restaurant_customers.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 8126629
       }
     },
     {
@@ -155,13 +246,6 @@
       }
     },
     {
-      "query": "path:\"Round_trip_II.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 2883805
-      }
-    },
-    {
       "query": "path:\"Round_trip.md\"",
       "color": {
         "a": 1,
@@ -169,17 +253,10 @@
       }
     },
     {
-      "query": "path:\"Room_allocation.md\"",
+      "query": "path:\"Round_trip_II.md\"",
       "color": {
         "a": 1,
-        "rgb": 16721679
-      }
-    },
-    {
-      "query": "path:\"Restaurant_customers.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 8126629
+        "rgb": 2883805
       }
     },
     {
@@ -225,13 +302,6 @@
       }
     },
     {
-      "query": "path:\"Playlist.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 16272640
-      }
-    },
-    {
       "query": "path:\"Projects.md\"",
       "color": {
         "a": 1,
@@ -239,10 +309,10 @@
       }
     },
     {
-      "query": "path:\"Palindrome_reorder.md\"",
+      "query": "path:\"Playlist.md\"",
       "color": {
         "a": 1,
-        "rgb": 16715625
+        "rgb": 16272640
       }
     },
     {
@@ -250,6 +320,13 @@
       "color": {
         "a": 1,
         "rgb": 16769556
+      }
+    },
+    {
+      "query": "path:\"Palindrome_reorder.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16715625
       }
     },
     {
@@ -267,17 +344,17 @@
       }
     },
     {
-      "query": "path:\"Nested_ranges_check.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 3268863
-      }
-    },
-    {
       "query": "path:\"Nearest_smaller_values.md\"",
       "color": {
         "a": 1,
         "rgb": 58853
+      }
+    },
+    {
+      "query": "path:\"Nested_ranges_check.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 3268863
       }
     },
     {
@@ -449,20 +526,6 @@
       }
     },
     {
-      "query": "path:\"Gray_code.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 2502399
-      }
-    },
-    {
-      "query": "path:\"Flight_routes.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 1965972
-      }
-    },
-    {
       "query": "path:\"Flight_discount.md\"",
       "color": {
         "a": 1,
@@ -470,10 +533,24 @@
       }
     },
     {
+      "query": "path:\"Gray_code.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2502399
+      }
+    },
+    {
       "query": "path:\"Ferris_wheel.md\"",
       "color": {
         "a": 1,
         "rgb": 43155
+      }
+    },
+    {
+      "query": "path:\"Flight_routes.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 1965972
       }
     },
     {
@@ -491,24 +568,10 @@
       }
     },
     {
-      "query": "path:\"Creating_strings.md\"",
+      "query": "path:\"Concert_tickets.md\"",
       "color": {
         "a": 1,
-        "rgb": 1153791
-      }
-    },
-    {
-      "query": "path:\"Counting_rooms.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 786385
-      }
-    },
-    {
-      "query": "path:\"Distinct_values_subsequences.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 1997
+        "rgb": 16722767
       }
     },
     {
@@ -519,10 +582,10 @@
       }
     },
     {
-      "query": "path:\"Concert_tickets.md\"",
+      "query": "path:\"Distinct_values_subsequences.md\"",
       "color": {
         "a": 1,
-        "rgb": 16722767
+        "rgb": 1997
       }
     },
     {
@@ -547,6 +610,20 @@
       }
     },
     {
+      "query": "path:\"Counting_rooms.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 786385
+      }
+    },
+    {
+      "query": "path:\"Creating_strings.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 1153791
+      }
+    },
+    {
       "query": "path:\"Dice_combinations.md\"",
       "color": {
         "a": 1,
@@ -558,6 +635,13 @@
       "color": {
         "a": 1,
         "rgb": 57671
+      }
+    },
+    {
+      "query": "path:\"Apple_division.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 96511
       }
     },
     {
@@ -575,6 +659,13 @@
       }
     },
     {
+      "query": "path:\"Bit_strings.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 524152
+      }
+    },
+    {
       "query": "path:\"Collecting_numbers_II.md\"",
       "color": {
         "a": 1,
@@ -586,6 +677,13 @@
       "color": {
         "a": 1,
         "rgb": 44127
+      }
+    },
+    {
+      "query": "path:\"Chessboard_and_queens.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2883805
       }
     },
     {
@@ -610,13 +708,6 @@
       }
     },
     {
-      "query": "path:\"Chessboard_and_queens.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 2883805
-      }
-    },
-    {
       "query": "path:\"Building_teams.md\"",
       "color": {
         "a": 1,
@@ -638,14 +729,21 @@
       }
     },
     {
-      "query": "path:\"Bit_strings.md\"",
+      "query": "path:\"Apartaments.md\"",
       "color": {
         "a": 1,
-        "rgb": 2424671
+        "rgb": 47978
       }
     },
     {
       "query": "path:\"Array_division.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 15663231
+      }
+    },
+    {
+      "query": "path:\"394D.md\"",
       "color": {
         "a": 1,
         "rgb": 15663231
@@ -659,17 +757,10 @@
       }
     },
     {
-      "query": "path:\"Apple_division.md\"",
+      "query": "path:\"61B.md\"",
       "color": {
         "a": 1,
-        "rgb": 96511
-      }
-    },
-    {
-      "query": "path:\"Apartaments.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 47978
+        "rgb": 2068479
       }
     },
     {
@@ -694,17 +785,17 @@
       }
     },
     {
+      "query": "path:\"2248D.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16733953
+      }
+    },
+    {
       "query": "path:\"862B.md\"",
       "color": {
         "a": 1,
         "rgb": 786385
-      }
-    },
-    {
-      "query": "path:\"61B.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 2068479
       }
     },
     {
@@ -715,10 +806,10 @@
       }
     },
     {
-      "query": "path:\"394D.md\"",
+      "query": "path:\"2254F.md\"",
       "color": {
         "a": 1,
-        "rgb": 15663231
+        "rgb": 56693
       }
     },
     {
@@ -729,10 +820,10 @@
       }
     },
     {
-      "query": "path:\"2254F.md\"",
+      "query": "path:\"2252B.md\"",
       "color": {
         "a": 1,
-        "rgb": 56693
+        "rgb": 15371008
       }
     },
     {
@@ -743,10 +834,10 @@
       }
     },
     {
-      "query": "path:\"2252B.md\"",
+      "query": "path:\"2245C.md\"",
       "color": {
         "a": 1,
-        "rgb": 15371008
+        "rgb": 1572860
       }
     },
     {
@@ -757,10 +848,17 @@
       }
     },
     {
-      "query": "path:\"2248D.md\"",
+      "query": "path:\"2244E.md\"",
       "color": {
         "a": 1,
-        "rgb": 16733953
+        "rgb": 3276625
+      }
+    },
+    {
+      "query": "path:\"2246C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
       }
     },
     {
@@ -785,24 +883,10 @@
       }
     },
     {
-      "query": "path:\"2246C.md\"",
+      "query": "path:\"2241E.md\"",
       "color": {
         "a": 1,
-        "rgb": 2424671
-      }
-    },
-    {
-      "query": "path:\"2245C.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 1572860
-      }
-    },
-    {
-      "query": "path:\"2244E.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 3276625
+        "rgb": 59246
       }
     },
     {
@@ -834,20 +918,6 @@
       }
     },
     {
-      "query": "path:\"2229C2.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 320000
-      }
-    },
-    {
-      "query": "path:\"2229C1.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 16713479
-      }
-    },
-    {
       "query": "path:\"2227E.md\"",
       "color": {
         "a": 1,
@@ -862,17 +932,24 @@
       }
     },
     {
+      "query": "path:\"2229C1.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16713479
+      }
+    },
+    {
+      "query": "path:\"2229C2.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 320000
+      }
+    },
+    {
       "query": "path:\"2225D.md\"",
       "color": {
         "a": 1,
         "rgb": 54376
-      }
-    },
-    {
-      "query": "path:\"2222C.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 64820
       }
     },
     {
@@ -883,10 +960,52 @@
       }
     },
     {
+      "query": "path:\"2185E.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 15663273
+      }
+    },
+    {
+      "query": "path:\"2195E.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 982922
+      }
+    },
+    {
+      "query": "path:\"2222C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 64820
+      }
+    },
+    {
+      "query": "path:\"2183C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"2203C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 1669631
+      }
+    },
+    {
       "query": "path:\"2196A.md\"",
       "color": {
         "a": 1,
         "rgb": 4063010
+      }
+    },
+    {
+      "query": "path:\"2155C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2424671
       }
     },
     {
@@ -897,10 +1016,17 @@
       }
     },
     {
-      "query": "path:\"2107B.md\"",
+      "query": "path:\"2147C.md\"",
       "color": {
         "a": 1,
-        "rgb": 16723490
+        "rgb": 2424671
+      }
+    },
+    {
+      "query": "path:\"1916C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16741211
       }
     },
     {
@@ -911,6 +1037,27 @@
       }
     },
     {
+      "query": "path:\"2149E.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16732948
+      }
+    },
+    {
+      "query": "path:\"1647B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 589724
+      }
+    },
+    {
+      "query": "path:\"2107B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16723490
+      }
+    },
+    {
       "query": "path:\"2033D.md\"",
       "color": {
         "a": 1,
@@ -918,17 +1065,17 @@
       }
     },
     {
+      "query": "path:\"1650C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16743699
+      }
+    },
+    {
       "query": "path:\"1931D.md\"",
       "color": {
         "a": 1,
         "rgb": 250880
-      }
-    },
-    {
-      "query": "path:\"1916C.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 16741211
       }
     },
     {
@@ -946,45 +1093,10 @@
       }
     },
     {
-      "query": "path:\"1650C.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 16743699
-      }
-    },
-    {
-      "query": "path:\"1647B.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 589724
-      }
-    },
-    {
-      "query": "path:\"1638C.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 2097036
-      }
-    },
-    {
-      "query": "path:\"1446A.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 16713479
-      }
-    },
-    {
       "query": "path:\"1307B.md\"",
       "color": {
         "a": 1,
         "rgb": 2424671
-      }
-    },
-    {
-      "query": "path:\"129B.md\"",
-      "color": {
-        "a": 1,
-        "rgb": 64992
       }
     },
     {
@@ -995,10 +1107,31 @@
       }
     },
     {
+      "query": "path:\"1638C.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2097036
+      }
+    },
+    {
       "query": "path:\"1184A1.md\"",
       "color": {
         "a": 1,
         "rgb": 2817956
+      }
+    },
+    {
+      "query": "path:\"1446A.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16713479
+      }
+    },
+    {
+      "query": "path:\"129B.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 64992
       }
     }
   ],
@@ -1012,6 +1145,6 @@
   "repelStrength": 12.3695976154993,
   "linkStrength": 1,
   "linkDistance": 139,
-  "scale": 0.195660919913025,
+  "scale": 0.23047457477216965,
   "close": false
 }

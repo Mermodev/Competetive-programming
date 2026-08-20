@@ -1,11 +1,13 @@
 LCA
 bellman_ford
 bfs
+binomial
 binsearch
 bitmask
 bitmasks
 brutal_solution
 bruteforce
+construction
 constructive
 counting
 data_structures
@@ -24,7 +26,9 @@ graph
 greedy
 knapsack
 lol
+map
 math
+math'
 median
 multiset
 ordered_set
@@ -44,6 +48,7 @@ strings
 sweep
 tree
 tree_dp
+trie
 two_pointers
 unordered_map
 xor
