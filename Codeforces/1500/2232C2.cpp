@@ -1,0 +1,40 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    long long N, C, T;
+    cin >> N >> T >> C;
+    string S;
+    cin >> S;
+    long long l = 0, r = 0, ans = 0;
+    for(auto&e : S){
+      if(e == 'A'){
+        if(T * C == ans)
+          continue;
+        ans++;
+        if(l * C < ans)
+          l++;
+        r = min(T, r + 1);
+      }
+      else if(e == 'I'){
+        if(l == T)
+          continue;
+        ans++;
+        l++;
+        r = min(T, r + 1);
+      }
+      else if(e == 'E'){
+        if(r * C == ans)
+          continue;
+        ans++;
+        if(l * C < ans)
+          l++;
+      }
+    }
+    cout << ans << '\n';
+  }
+}

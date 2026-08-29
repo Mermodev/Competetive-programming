@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    int N, M, Time;
+    cin >> N >> M >> Time;
+    int Remaining = N + 1;
+    multiset<int> Animatronics;
+    for(int i = 0; i < min(Remaining, M); i++)
+      Animatronics.insert(0);
+    vector<int> Erasures(N);
+    for(auto&e : Erasures)
+      cin >> e;
+    int Curr_erasure = 0;
+    for(int Curr = 1; Curr <= Time; Curr++){
+      Animatronics.insert(*(Animatronics.begin()) + 1);
+      Animatronics.erase(Animatronics.begin());
+      if(Curr_erasure < N && Curr == Erasures[Curr_erasure]){
+        Remaining--;
+        Curr_erasure++;
+        Animatronics.erase(Animatronics.find(*(Animatronics.rbegin())));
+        if(Animatronics.size() != min(Remaining, M))
+          Animatronics.insert(0);
+      }
+    }
+    cout << *(Animatronics.begin()) << '\n';
+  }
+}

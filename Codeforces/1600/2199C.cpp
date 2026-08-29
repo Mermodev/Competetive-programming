@@ -1,0 +1,42 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    int N;
+    cin >> N;
+    if(N == 1)
+      cout << "YES\n1\n*\n.";
+    else if(N % 5 == 0){
+      cout << "YES\n" << (N / 5) * 3 << '\n';
+      for(int i = 0; i < N / 5; i++)
+        cout << ".*.";
+      cout << "\n";
+      for(int i = 0; i < N / 5; i++)
+        cout << "...";
+    }
+    else if(abs(N - 3) % 5 == 0){
+      cout << "YES\n" << ((N - 3) / 5) * 3 + 2 << '\n' << "*.";
+      for(int i = 0; i < (N - 3) / 5; i++)
+        cout << ".*.";
+      cout << "\n..";
+      for(int i = 0; i < (N - 3) / 5; i++)
+        cout << "...";
+    }
+    else if(abs(N - 6) % 5 == 0){
+      cout << "YES\n" << ((N - 6) / 5) * 3 + 4 << '\n' << "*.";
+      for(int i = 0; i < (N - 6) / 5; i++)
+        cout << ".*.";
+      cout << ".*\n..";
+      for(int i = 0; i < (N - 6) / 5; i++)
+        cout << "...";
+      cout << "..";
+    }
+    else
+      cout << "NO";
+    cout << '\n';
+  }
+}
