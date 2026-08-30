@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sorting",
+                "query": "game",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,6 +183,11 @@
   },
   "active": "9d3489a4dc9b1294",
   "lastOpenFiles": [
+    "2182D.md",
+    "2254C2.md",
+    "2254C1.md",
+    "2184D.md",
+    "2193F.md",
     "2194D.md",
     "2199C.md",
     "2207B.md",
@@ -194,8 +199,6 @@
     "2256B.md",
     "2256A.md",
     "2254E.md",
-    "2254C2.md",
-    "2254C1.md",
     "2254B.md",
     "2254A.md",
     "2253C.md",
@@ -206,9 +209,6 @@
     "2146D2.md",
     "2147C.md",
     "2149E.md",
-    "2155C.md",
-    "2183C.md",
-    "2185E.md",
     "Untitled.base"
   ]
 }

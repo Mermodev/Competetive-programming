@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  cin.tie(0) -> sync_with_stdio(0);
+  int Q;
+  cin >> Q;
+  while(Q--){
+    pair<int, int> Start, End;
+    int Amount;
+    cin >> Amount >> Start.first >> Start.second >> End.first >> End.second;
+    vector<pair<long long, long long>> Deliveries(Amount);
+    for(auto&e : Deliveries)
+      cin >> e.first;
+    for(auto&e : Deliveries)
+      cin >> e.second;
+    Deliveries.emplace_back(End);
+    sort(Deliveries.begin(), Deliveries.end());
+    long long Previous_position = Start.first;
+    vector<pair<long long, long long>> dp(1, make_pair(0, 0));
+    pair<long long, long long> Previous_range = make_pair(Start.second, Start.second);
+    for(int i = 0; i <= Amount; i++){
+      long long Lowest = Deliveries[i].second, Highest = Deliveries[i].second;
+      while(i < Amount && Deliveries[i].first == Deliveries[i + 1].first){
+        i++;
+        Highest = Deliveries[i].second;
+      }
+      long long Horizontal_dist = Deliveries[i].first - Previous_position;
+      long long Layer_cost = Highest - Lowest;
+      pair<long long, long long> Prev_dp = dp[dp.size() - 1];
+      long long Dist_to_bottom = min(abs(Lowest - Previous_range.first) + Prev_dp.first, abs(Lowest - Previous_range.second) + Prev_dp.second);
+      long long Dist_to_top = min(abs(Highest - Previous_range.first) + Prev_dp.first, abs(Highest - Previous_range.second) + Prev_dp.second);
+      dp.emplace_back(make_pair(Layer_cost + Horizontal_dist + Dist_to_top, Layer_cost + Horizontal_dist + Dist_to_bottom));
+      Previous_position = Deliveries[i].first;
+      Previous_range = make_pair(Lowest, Highest);
+    }
+    cout << min(dp[dp.size() - 1].first, dp[dp.size() - 1].second) << '\n';
+  }
+}
